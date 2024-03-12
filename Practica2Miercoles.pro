@@ -7,6 +7,8 @@ SOURCES += \
         Punto1.cpp \
         Punto10.cpp \
         Punto17.cpp \
+        Punto3.cpp \
+        Punto4.cpp \
         Punto6.cpp \
         main.cpp
 
