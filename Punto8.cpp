@@ -18,10 +18,10 @@ int Ejercicio8() {
     std::string original = "abc54rst";
     std::string texto, numeros;
 
-    // Llamamos a la función para separar los números y el texto
+    // Llamar a la función para separar los números y el texto
     separateNumbersAndText(original, texto, numeros);
 
-    // Imprimimos los resultados
+    // Imprimir los resultados
     std::cout << "Original: " << original << std::endl;
     std::cout << "Texto: " << texto << std::endl;
     std::cout << "Número: " << numeros << std::endl;

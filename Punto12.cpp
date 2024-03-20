@@ -4,12 +4,12 @@
 bool esCuadradoMagico(int matriz[3][3]) {
     int sumaFila = 0, sumaColumna = 0, sumaDiagonal1 = 0, sumaDiagonal2 = 0;
 
-    // Calculamos la suma de la primera fila para usar como referencia
+    // Calcular la suma de la primera fila para usar como referencia
     for (int j = 0; j < 3; ++j) {
         sumaFila += matriz[0][j];
     }
 
-    // Verificamos las sumas de filas, columnas y diagonales
+    // Verificar las sumas de filas, columnas y diagonales
     for (int i = 0; i < 3; ++i) {
         int fila = 0, columna = 0;
         for (int j = 0; j < 3; ++j) {
@@ -27,7 +27,7 @@ bool esCuadradoMagico(int matriz[3][3]) {
         }
     }
 
-    // Verificamos las sumas de diagonales
+    // Verificar las sumas de diagonales
     return sumaDiagonal1 == sumaFila && sumaDiagonal2 == sumaFila;
 }
 
